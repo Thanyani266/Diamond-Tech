@@ -1,0 +1,312 @@
+.logo{
+    width: 25%;
+    height: 25%;
+}
+
+nav{
+    font-size: 20px;
+}
+
+nav img:hover{
+    transform: scale(1.2);
+}
+
+nav .nav-link:hover{
+    background-color: darkslategrey;
+    border-radius: 50%;
+}
+
+.hero span{
+    font-size: xx-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: cornflowerblue;
+}
+
+.hero em{
+    color: darkslategrey;
+}
+
+.hero button{
+    background-color: cornflowerblue;
+    text-transform: uppercase;
+    color: azure;
+    border-radius: 30px;
+}
+
+.hero button:hover{
+    background-color: azure;
+    color: cornflowerblue;
+}
+
+#products h2{
+    color: darkslategrey;
+}
+
+#products p{
+    z-index: 10;
+}
+
+#products a{
+    background-color: cornflowerblue;
+    text-transform: uppercase;
+    color: azure;
+    border-radius: 30px;
+}
+
+#products a:hover{
+    background-color: azure;
+    color: cornflowerblue;
+}
+
+.feature-child1:before {
+    content: "\f108";
+    font-family: 'FontAwesome';
+    position: absolute;
+    font-size: 100px;
+    align-items: center;
+    color: lightblue;
+    display: flex;
+    z-index: 1;
+    margin: 20px;
+}
+
+.feature-child2:before {
+    content: "\f3cd";
+    font-family: 'FontAwesome';
+    position: absolute;
+    font-size: 100px;
+    align-items: center;
+    color: lightblue;
+    display: flex;
+    z-index: 1;
+    margin: 20px;
+}
+
+.feature-child3:before {
+    content: "\f109";
+    font-family: 'FontAwesome';
+    position: absolute;
+    font-size: 100px;
+    align-items: center;
+    color: lightblue;
+    display: flex;
+    z-index: 1;
+    margin: 20px;
+}
+
+.feature-child4:before {
+    content: "\f02f";
+    font-family: 'FontAwesome';
+    position: absolute;
+    font-size: 100px;
+    align-items: center;
+    color: lightblue;
+    display: flex;
+    z-index: 1;
+    margin: 20px;
+}
+
+
+
+.bg-custom{
+    background-repeat: no-repeat, repeat;
+	background-image: url(./images/spa_black.jpg), url(./images/office-space.jpg);
+    background-blend-mode: color;
+}
+
+.bg-custom h1{
+    color: cornflowerblue;
+    text-shadow: 0 0 10px transparent;
+}
+
+.bg-custom p{
+    color: azure;
+    text-shadow: 0 0 50px black;
+    font-family: monospace;
+}
+
+.bg-custom a{
+    background-color: cornflowerblue;
+    text-transform: uppercase;
+    color: azure;
+    border-radius: 30px;
+    text-shadow: 0 0 10px transparent;
+}
+
+.bg-custom a:hover{
+    background-color: transparent;
+    color: cornflowerblue;
+}
+
+#contact .contt{
+    background-color: aqua;
+    border-radius: 20px 20px 20px 150px;
+}
+
+#contact form{
+    background-image: url(./images/spa_black.jpg), url(./images/contact_us_img.jpeg);
+    background-blend-mode:difference;
+}
+
+input[type="text"]::-webkit-input-placeholder{
+    color: lightblue;
+}
+
+input[type="text"]:-moz-placeholder{
+    color: lightblue;
+    opacity: 1;
+}
+
+input[type="text"]::-moz-placeholder{
+    color: lightblue;
+    opacity: 1;
+}
+
+input[type="text"]:-ms-input-placeholder{
+    color: lightblue;
+}
+
+input[type="text"]::-ms-input-placeholder{
+    color: lightblue;
+}
+
+input[type="text"]::placeholder{
+    color: lightblue;
+}
+
+input[type="email"]::-webkit-input-placeholder{
+    color: lightblue;
+}
+
+input[type="email"]:-moz-placeholder{
+    color: lightblue;
+    opacity: 1;
+}
+
+input[type="email"]::-moz-placeholder{
+    color: lightblue;
+    opacity: 1;
+}
+
+input[type="email"]:-ms-input-placeholder{
+    color: lightblue;
+}
+
+input[type="email"]::-ms-input-placeholder{
+    color: lightblue;
+}
+
+input[type="email"]::placeholder{
+    color: lightblue;
+}
+
+input[type="tel"]::-webkit-input-placeholder{
+    color: lightblue;
+}
+
+input[type="tel"]:-moz-placeholder{
+    color: lightblue;
+    opacity: 1;
+}
+
+input[type="tel"]::-moz-placeholder{
+    color: lightblue;
+    opacity: 1;
+}
+
+input[type="tel"]:-ms-input-placeholder{
+    color: lightblue;
+}
+
+input[type="tel"]::-ms-input-placeholder{
+    color: lightblue;
+}
+
+input[type="tel"]::placeholder{
+    color: lightblue;
+}
+
+textarea[type="text"]::-webkit-input-placeholder{
+    color: lightblue;
+}
+
+textarea[type="text"]:-moz-placeholder{
+    color: lightblue;
+    opacity: 1;
+}
+
+textarea[type="text"]::-moz-placeholder{
+    color: lightblue;
+    opacity: 1;
+}
+
+textarea[type="text"]:-ms-input-placeholder{
+    color: lightblue;
+}
+
+textarea[type="text"]::-ms-input-placeholder{
+    color: lightblue;
+}
+
+textarea[type="text"]::placeholder{
+    color: lightblue;
+}
+
+#contact button{
+    text-transform: uppercase;
+    background-color: cornflowerblue;
+    color: azure;
+}
+
+#contact button:hover{
+    background-color: transparent;
+    color: cornflowerblue;
+}
+
+#contact small a{
+    text-decoration: none;
+    color: azure;
+}
+
+#contact small a:hover{
+    color: lightblue;
+}
+
+#contact .contt a{
+    text-decoration: none;
+    color: burlywood;
+    text-shadow: 0 0 5px azure;
+}
+
+#contact .contt a:hover{
+    color: azure;
+    text-shadow: 0 0 5px black;
+}
+
+.newsletter button{
+    text-transform: uppercase;
+    background-color: cornflowerblue;
+    color: azure;
+}
+
+.newsletter button:hover{
+    background-color: transparent;
+    color: cornflowerblue;
+}
+
+.newsletter h6{
+    font-family: cursive;
+    color: darkslategrey;
+}
+
+.newsletter ul li{
+    font-size: 40px;
+}
+
+.newsletter li:hover{
+    scale: 1.2;
+}
+
+.foo .nav-item:hover{
+    background-color: white;
+}
