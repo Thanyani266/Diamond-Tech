@@ -46,6 +46,10 @@ nav .nav-link:hover{
     z-index: 10;
 }
 
+#products h4{
+    z-index: 10;
+}
+
 #products a{
     background-color: cornflowerblue;
     text-transform: uppercase;
@@ -105,8 +109,6 @@ nav .nav-link:hover{
     z-index: 1;
     margin: 20px;
 }
-
-
 
 .bg-custom{
     background-repeat: no-repeat, repeat;
@@ -309,4 +311,97 @@ textarea[type="text"]::placeholder{
 
 .foo .nav-item:hover{
     background-color: white;
+}
+
+@media screen and (min-width: 820px) {
+    .map iframe{
+        width: 100px;
+        height: 100px;
+    }
+    #contact .contt{
+        border-radius: 20px 20px 20px 120px;
+    }
+    .feature-child1:before {
+        font-size: 80px;
+        margin-top: 80px;
+    }
+    
+    .feature-child2:before {
+        font-size: 80px;
+        margin-top: 80px;
+    }
+    
+    .feature-child3:before {
+        font-size: 80px;
+        margin-top: 100px;
+    }
+    
+    .feature-child4:before {
+        font-size: 80px;
+        margin-top: 100px;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+     .feature-child1:before {
+        font-size: 80px;
+        margin-top: 80px;
+    }
+    
+    .feature-child2:before {
+        font-size: 80px;
+        margin-top: 80px;
+    }
+    
+    .feature-child3:before {
+        font-size: 80px;
+        margin-top: 100px;
+    }
+    
+    .feature-child4:before {
+        font-size: 80px;
+        margin-top: 100px;
+    }
+    
+}
+
+@media screen and (min-width: 390px){
+    .map iframe{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 375px){
+    #contact .contt{
+        border-radius: 20px 20px 20px 100px;
+    }
+}
+
+@media screen and (min-width: 360px){
+    #contact .contt{
+        border-radius: 20px 20px 20px 90px;
+    }
+    .map iframe{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 280px){
+    #contact .contt{
+        border-radius: 20px 20px 20px 90px;
+    }
+    .map iframe{
+        width: 100px;
+        height: 100px;
+    }
+    .feature-child3:before {
+        margin-top: 40px;
+    }
+    
+    .feature-child4:before {
+        margin-top: 40px;
+    }
 }
